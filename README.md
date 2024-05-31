@@ -42,6 +42,8 @@ Upload First Image와 Upload Second Image에 얼굴사진 샘플이 있으므로
 
 ![image](https://github.com/kohjun/compositing-face/assets/82298792/cb90299c-c4a4-4faa-99f8-cd57e9e84ac6)
 
+예시3)
+![image](https://github.com/kohjun/Face-Overlay-Photoshop/assets/82298792/c8378bfa-1a22-4416-bda5-80f8258adce4)
 
 
 여러개의 사진을 통해서 다양한 인물의 합성 얼굴이 나온다.
