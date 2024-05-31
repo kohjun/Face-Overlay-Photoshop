@@ -1,5 +1,4 @@
-# 얼굴합성 프로그램
-
+# 얼굴 합성 포토샵 프로그램
 
 
 **첫번째 파일**의 얼굴을 인식하여 눈 , 코, 입의 이미지를 images 파일에 저장하고, 
@@ -14,17 +13,18 @@
 main함수를 실행하면 다음과 같은 창이 뜬다.
 
 
-![image](https://github.com/kohjun/compositing-face/assets/82298792/c2bf35be-0f0c-4ba8-be63-57f8106b49f9)
+![image](https://github.com/kohjun/compositing-face/assets/82298792/e00f6406-7119-43d1-adc2-06020f12299f)
 
 
 tkinter 창에서는 먼저 첫번째 이미지를 업로드를 눌러 jpg또는png 파일을 업로드한다.
 성공적으로 대상을 인식하여 저장하였다면
 
 
-![image](https://github.com/kohjun/compositing-face/assets/82298792/ca79b677-926d-4052-bb3b-4b33f71722ff)
+![image](https://github.com/kohjun/compositing-face/assets/82298792/6708a77d-93a1-413b-aba8-d97568fffbea)
 
-Info 창이 떠서 눈, 코 ,입의 이미지가 images파일에 저장되었음을 알린다.
+알림창이 떠서 눈, 코 ,입의 이미지가 images파일에 저장되었음을 알린다.
 
+**[주의]**
 Upload First Image와 Upload Second Image에 얼굴사진 샘플이 있으므로 업로드 하기 위해서는 해당 파일에 있는 이미지들을 바탕화면이나
 다운로드 파일에 옮겨야한다. Compositing_Face 파일 안에 있는 이미지 파일을 업로드할 경우 열린파일이라서 업로드에 오류가 난다.
 
@@ -36,15 +36,19 @@ Upload First Image와 Upload Second Image에 얼굴사진 샘플이 있으므로
 
 예시1)
 
-![image](https://github.com/kohjun/compositing-face/assets/82298792/59b08558-9079-47c2-b095-31ccb791e918)
+![image](https://github.com/kohjun/compositing-face/assets/82298792/a63b7b5b-8849-4cda-84e9-5f7a2fa2f829)
 
 예시2)
 
-![image](https://github.com/kohjun/compositing-face/assets/82298792/7d3b30d6-2092-4084-a1c4-2d56e1bbdded)
+![image](https://github.com/kohjun/compositing-face/assets/82298792/cb90299c-c4a4-4faa-99f8-cd57e9e84ac6)
 
 
 
 여러개의 사진을 통해서 다양한 인물의 합성 얼굴이 나온다.
+
+밝기와, 명암, 채도를 조절해서 포토샵도 가능하다.
+
+그 후에 완성된 사진은 저장하기를 눌러 images/outputs 파일에 저장된다.
 
 
 face_compositor.py에는 
