@@ -7,7 +7,7 @@
 
 가우시간 블러, 컬러매치, 사이즈 조절, 블렌딩을 이용하여 얼굴합성을 시킨다.
 
-얼굴인식은 Haar Cascades인 OpenCV GitHub에서 제공하는 사전 학습된 모델로 특정을 객체(얼굴, 눈, 코, 입)를 인식하여 검출하였다.
+얼굴인식은 Haar Cascades인 OpenCV GitHub에서 제공하는 사전 학습된 모델로 특정 객체(얼굴, 눈, 코, 입)를 인식하여 검출하였다.
 해당 사이트 [haarcascades 깃허브](https://github.com/opencv/opencv/tree/master/data/haarcascades) 에서 제공받았다.
 
 main함수를 실행하면 다음과 같은 창이 뜬다.
